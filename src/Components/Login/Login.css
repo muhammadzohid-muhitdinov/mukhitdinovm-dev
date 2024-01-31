@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+.Login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+    max-width: 1450px;
+}
+@media (max-width:464px){
+   .des{
+    font-size: medium;
+   }
+}
+@media (max-width: 313.7px){
+    .des{
+        font-size: small;
+    }
+}
+@media (max-width: 299.7px){
+    .des{
+        font-size:smaller;
+    }
+}
+@media (max-width: 295.2px){
+    .des{
+        font-size:x-small;
+    }
+}
+@media (max-width: 297px){
+    .logol{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .namel{
+        font-size: 38px !important;
+    }
+    .login2{
+        width: 250px !important;
+    }
+}
+/* 297.6px chayilyabti */
+.login2{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #909090;
+}
+.des{
+    color: #909090;
+    display: flex;
+    gap: 10px;
+}
+input{
+    height: 35px !important;
+    font-size: 0.9rem;
+    border: 0.5px solid #909090;
+}
+.desc{
+    width: 100%;
+    position: relative;
+}
+.desc{
+   width: 1005;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+
+.button1{
+    width: 100%;
+}
+.loginbtn{
+    width: 160px !important;
+    height: 30px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    font-size: 1rem !important;
+    cursor: pointer !important;
+    background-color: black !important;
+}
+.royhatdanotish{
+    color: black;
+}
+.a{
+    color: black;
+    text-decoration: none !important;
+}
+#a{
+
+    color:#909090;
+}
+.loginbtn:focus{
+    outline: none;
+}
+.loginbtn:active{
+    transform: scale(0.9.8);
+}
+.inputs input{
+    outline: none;
+    width: 100%;
+    height: 30px;
+    border-radius: 7px;
+    padding: 10px;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    width: 100%;
+}
+.namel{
+    font-family: 'Caveat', cursive;
+    font-size: 48px;
+    color: #909090 !important;
+}
+.logol{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.logot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

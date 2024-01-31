@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.Aboutpage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px !important;
+    margin: auto;
+    max-width: 1430px;
+    gap: 20px;
+}
+.name-div{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: 150px;
+}
+.about-mes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    transition: 1s;
+    font-family: 'Montserrat', sans-serif;
+    border: 5px solid black;
+    background-color: white;
+    margin-top: 30px;
+}
+.about-mes:hover{
+    background-color: black;
+    color: white;
+}
+.menhaqimda{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.ismf{
+    font-family: 'Work Sans', sans-serif;
+}
+.myinformations{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-img{
+    width: 50% !important;
+}
+.right-inform{
+    width: 50% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-img{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+}
+.myphotoi{
+    width: 400px;
+    object-fit: cover;
+    height: 500px;
+    border-radius: 20px;
+}
+.infor-me{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 36px;
+    box-shadow: 2px 2px 2px 2px #909090;
+    padding: 30px;
+    height: 500px;
+    width: 700px;
+    border-radius: 30px;
+
+}
+.infor-me h2{
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.infor-me h2:hover{
+    margin-left: 20px !important;
+    cursor: pointer;
+}

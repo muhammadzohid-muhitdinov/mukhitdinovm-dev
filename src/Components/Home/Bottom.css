@@ -1,0 +1,60 @@
+.Bottom-div{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    max-width: 1430px;
+}
+.sertifikat{
+    width: 400px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.sertifikat:hover{
+    transform: scale(1.06);
+}
+.right-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s;
+}
+/* .right-b:hover{
+    transform: scale(1.06);
+} */
+.theme{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+}
+.wikipediya{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}   
+.organdim{
+    font-size: 3rem;
+}
+.wikipediya a{
+    padding-top: 6px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    transition: 0.5s;
+}
+.wikipediya a:hover{
+    margin-left: 20px !important;
+}
+#htmlw{
+    padding-top: 10px;
+}
